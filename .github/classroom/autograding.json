@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Test creating a Card",
+      "setup": "",
+      "run": "cargo test test_can_create_card",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test creating a Shop",
+      "setup": "",
+      "run": "cargo test test_can_create_shop",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test getting the most expensive card price",
+      "setup": "",
+      "run": "cargo test test_most_expensive_card",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test total damage of the Shop",
+      "setup": "",
+      "run": "cargo test test_total_damage",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test total health of the Shop",
+      "setup": "",
+      "run": "cargo test test_total_health",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Run cargo check",
+      "setup": "",
+      "run": "cargo check",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Run cargo fmt",
+      "setup": "",
+      "run": "cargo fmt --check",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
